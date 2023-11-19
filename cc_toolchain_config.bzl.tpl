@@ -102,6 +102,8 @@ CXX_BUILTIN_INCLUDE_DIRECTORIES = {
         "/usr/aarch64-linux-gnu/include/c++/%d/backward" % GCC_VERSION,
         "/usr/lib/gcc-cross/aarch64-linux-gnu/%d/include" % GCC_VERSION,
         "/usr/lib/gcc-cross/aarch64-linux-gnu/%d/include-fixed" % GCC_VERSION,
+        "/usr/lib/gcc/aarch64-linux-gnu/%d/include" % GCC_VERSION,
+        "/usr/lib/gcc/aarch64-linux-gnu/%d/include-fixed" % GCC_VERSION,
         "/usr/aarch64-linux-gnu/include",
         "/usr/include/aarch64-linux-gnu",
         "/usr/include",
